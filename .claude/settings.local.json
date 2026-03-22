@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Mega Store/.claude/**)",
+      "Read(//c/Users/Mega Store/.claude/projects/c--Users-Mega-Store-Documents-Project-Gamify-your-life/**)",
+      "Bash(NO_COLOR=1 specify --help)",
+      "Bash(PYTHONIOENCODING=utf-8 specify --help)",
+      "Bash(PYTHONIOENCODING=utf-8 specify init --here --ai claude 2>&1)",
+      "Bash(powershell -Command \".specify/scripts/powershell/create-new-feature.ps1 -Json -ShortName ''hp-death-economy'' ''Phase 2: HP System, Death and Economy''\")",
+      "Bash(powershell -Command \".specify/scripts/powershell/check-prerequisites.ps1 -Json -PathsOnly\")",
+      "Bash(powershell -Command \".specify/scripts/powershell/setup-plan.ps1 -Json\")",
+      "Bash(powershell -Command \".specify/scripts/powershell/update-agent-context.ps1 -AgentType claude\")",
+      "Bash(PYTHONIOENCODING=utf-8 .specify/scripts/powershell/create-new-feature.ps1 \"Phase 3: XP Engine, Streaks and Leveling\" --json --short-name \"xp-streaks-leveling\")",
+      "Bash(powershell.exe -File .specify/scripts/powershell/create-new-feature.ps1 \"Phase 3: XP Engine, Streaks and Leveling\" -Json -ShortName \"xp-streaks-leveling\")",
+      "Bash(powershell.exe -File .specify/scripts/powershell/setup-plan.ps1 -Json)",
+      "Bash(powershell.exe -File .specify/scripts/powershell/update-agent-context.ps1 -AgentType claude)",
+      "Bash(powershell.exe -File .specify/scripts/powershell/check-prerequisites.ps1 -Json)",
+      "Bash(powershell.exe -File .specify/scripts/powershell/check-prerequisites.ps1 -Json -PathsOnly)",
+      "Bash(powershell.exe -File .specify/scripts/powershell/create-new-feature.ps1 --json --short-name \"domain-modules\" \"Domain Modules: Financial, Fitness & Nutrition Engines\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File .specify/scripts/powershell/create-new-feature.ps1 -Json -ShortName \"reward-systems\" \"Reward Systems: Loot Box Engine, Achievement Engine, Rank Engine, Radar Chart Renderer\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File .specify/scripts/powershell/check-prerequisites.ps1 -Json -PathsOnly)",
+      "Bash(powershell -ExecutionPolicy Bypass -File .specify/scripts/powershell/setup-plan.ps1 -Json)",
+      "Bash(powershell -ExecutionPolicy Bypass -File .specify/scripts/powershell/update-agent-context.ps1 -AgentType claude)",
+      "Bash(powershell -ExecutionPolicy Bypass -File .specify/scripts/powershell/check-prerequisites.ps1 -Json)",
+      "Bash(powershell -ExecutionPolicy Bypass -File .specify/scripts/powershell/create-new-feature.ps1 -Json -ShortName \"ai-coach-quests\" \"OpenAI Cognitive Coach and Quest Engine with Procedural Quest Generation\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File .specify/scripts/powershell/create-new-feature.ps1 -Json -ShortName \"dashboard-onboarding-sops\" \"Dashboard, Onboarding & SOPs\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File .specify/scripts/powershell/create-new-feature.ps1 -Json -ShortName \"e2e-verification\" \"End-to-End Verification\")",
+      "Bash(.specify/scripts/powershell/setup-plan.ps1 -Json)",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -File .specify/scripts/powershell/setup-plan.ps1 -Json)",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -File .specify/scripts/powershell/update-agent-context.ps1 -AgentType claude)",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -File .specify/scripts/powershell/check-prerequisites.ps1 -Json)",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -File .specify/scripts/powershell/check-prerequisites.ps1 -Json -RequireTasks -IncludeTasks)",
+      "Bash(grep -E \"\\\\.\\(md|txt|doc\\)$\")",
+      "Bash(find 'C:\\\\Users\\\\Mega Store\\\\Documents\\\\Project Gamify your life' -name *asset* -o -name *image* -o -name *visual*)"
+    ]
+  }
+}
