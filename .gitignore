@@ -4,4 +4,3 @@ token.json
 .tmp/
 __pycache__/
 *.pyc
-.venv/
